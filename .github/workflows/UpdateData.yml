@@ -14,12 +14,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: "3.x"
+          python-version: "3.12"
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pipenv
-          pipenv install --system --deploy
+          pipenv install --system 
       - name: Update Data
         run: python src/main.py
       - name: Commit and push if changes
