@@ -1,14 +1,14 @@
 {
     "current_info": {
         "month": "September",
-        "count": "869",
-        "time_stamp": "21-09-2024 12:09:39"
+        "count": "873",
+        "time_stamp": "21-09-2024 18:11:29"
     },
     "previous_info": {
         "month": "September",
         "count": "855",
         "time_stamp": "18-09-2024 02:31:17"
     },
-    "mothly_solve_count": 14,
-    "script_last_executed": "2024-09-21 12:09:39.722530+06:00"
+    "mothly_solve_count": 18,
+    "script_last_executed": "2024-09-21 18:11:29.160037+06:00"
 }
