@@ -10,7 +10,7 @@ def main():
     dumping_obj.update({
     "current_info": info_currrent.info,
     "previous_info": info_prev.info,
-    "mothly_solve_count": int(info_currrent.count) - int(info_prev.count),
+    "mothly_solve_count": str(int(info_currrent.count) - int(info_prev.count)),
     "script_last_executed": str(datetime.now(time_zone))
     })
     dump_data_to_json(dumping_obj)
